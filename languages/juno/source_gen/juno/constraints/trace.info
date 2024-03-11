@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,33,0" name="juno.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:de5c5f45-fa4f-490e-ae4a-63e8f0390855(juno.constraints)/6826028883789441394">
+    <file name="IntLiteral_Constraints.java">
+      <node id="6826028883789441394" at="20,35,21,34" concept="8" />
+      <node id="6826028883789441395" at="25,60,26,61" concept="8" />
+      <node id="6826028883789441395" at="29,109,30,99" concept="4" />
+      <node id="6826028883789441395" at="31,53,32,145" concept="1" />
+      <node id="6826028883789441395" at="33,7,34,20" concept="5" />
+      <node id="6826028883789442432" at="36,85,37,45" concept="5" />
+      <node id="6826028883789441394" at="41,84,42,119" concept="4" />
+      <node id="6826028883789441395" at="42,119,43,63" concept="1" />
+      <node id="6826028883789441394" at="43,63,44,22" concept="5" />
+      <node id="6826028883789441394" at="48,0,49,0" concept="6" trace="IntLiteral$EZ" />
+      <node id="6826028883789441394" at="52,0,53,0" concept="6" trace="value$5Dv1" />
+      <node id="6826028883789441394" at="20,0,23,0" concept="0" trace="IntLiteral_Constraints#()V" />
+      <node id="6826028883789441395" at="25,0,28,0" concept="0" trace="Value_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6826028883789441395" at="30,99,33,7" concept="2" />
+      <node id="6826028883789441395" at="36,0,39,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6826028883789441394" at="40,0,46,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="6826028883789441395" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="6826028883789441394" at="20,35,21,34" />
+      <scope id="6826028883789441395" at="25,60,26,61" />
+      <scope id="6826028883789441395" at="31,53,32,145" />
+      <scope id="6826028883789441521" at="36,85,37,45" />
+      <scope id="6826028883789441394" at="20,0,23,0" />
+      <scope id="6826028883789441395" at="25,0,28,0">
+        <var name="container" id="6826028883789441395" />
+      </scope>
+      <scope id="6826028883789441395" at="36,0,39,0">
+        <var name="node" id="6826028883789441395" />
+        <var name="propertyValue" id="6826028883789441395" />
+      </scope>
+      <scope id="6826028883789441394" at="41,84,44,22">
+        <var name="properties" id="6826028883789441394" />
+      </scope>
+      <scope id="6826028883789441395" at="29,109,34,20">
+        <var name="result" id="6826028883789441395" />
+      </scope>
+      <scope id="6826028883789441394" at="40,0,46,0" />
+      <scope id="6826028883789441395" at="28,0,36,0">
+        <var name="checkingNodeContext" id="6826028883789441395" />
+        <var name="node" id="6826028883789441395" />
+        <var name="propertyValue" id="6826028883789441395" />
+      </scope>
+      <unit id="6826028883789441394" at="47,0,50,0" name="juno.constraints.IntLiteral_Constraints$CONCEPTS" />
+      <unit id="6826028883789441394" at="51,0,54,0" name="juno.constraints.IntLiteral_Constraints$PROPS" />
+      <unit id="6826028883789441395" at="24,0,40,0" name="juno.constraints.IntLiteral_Constraints$Value_Property" />
+      <unit id="6826028883789441394" at="19,0,55,0" name="juno.constraints.IntLiteral_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:de5c5f45-fa4f-490e-ae4a-63e8f0390855(juno.constraints)/6826028883789516773">
+    <file name="FloatLiteral_Constraints.java">
+      <node id="6826028883789516773" at="20,37,21,36" concept="8" />
+      <node id="6826028883789516774" at="25,60,26,61" concept="8" />
+      <node id="6826028883789516774" at="29,109,30,99" concept="4" />
+      <node id="6826028883789516774" at="31,53,32,145" concept="1" />
+      <node id="6826028883789516774" at="33,7,34,20" concept="5" />
+      <node id="6826028883789517775" at="36,85,37,56" concept="5" />
+      <node id="6826028883789516773" at="41,84,42,119" concept="4" />
+      <node id="6826028883789516774" at="42,119,43,63" concept="1" />
+      <node id="6826028883789516773" at="43,63,44,22" concept="5" />
+      <node id="6826028883789516773" at="48,0,49,0" concept="6" trace="FloatLiteral$$m" />
+      <node id="6826028883789516773" at="52,0,53,0" concept="6" trace="value$5Dv1" />
+      <node id="6826028883789516773" at="20,0,23,0" concept="0" trace="FloatLiteral_Constraints#()V" />
+      <node id="6826028883789516774" at="25,0,28,0" concept="0" trace="Value_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6826028883789516774" at="30,99,33,7" concept="2" />
+      <node id="6826028883789516774" at="36,0,39,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6826028883789516773" at="40,0,46,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="6826028883789516774" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="6826028883789516773" at="20,37,21,36" />
+      <scope id="6826028883789516774" at="25,60,26,61" />
+      <scope id="6826028883789516774" at="31,53,32,145" />
+      <scope id="6826028883789516859" at="36,85,37,56" />
+      <scope id="6826028883789516773" at="20,0,23,0" />
+      <scope id="6826028883789516774" at="25,0,28,0">
+        <var name="container" id="6826028883789516774" />
+      </scope>
+      <scope id="6826028883789516774" at="36,0,39,0">
+        <var name="node" id="6826028883789516774" />
+        <var name="propertyValue" id="6826028883789516774" />
+      </scope>
+      <scope id="6826028883789516773" at="41,84,44,22">
+        <var name="properties" id="6826028883789516773" />
+      </scope>
+      <scope id="6826028883789516774" at="29,109,34,20">
+        <var name="result" id="6826028883789516774" />
+      </scope>
+      <scope id="6826028883789516773" at="40,0,46,0" />
+      <scope id="6826028883789516774" at="28,0,36,0">
+        <var name="checkingNodeContext" id="6826028883789516774" />
+        <var name="node" id="6826028883789516774" />
+        <var name="propertyValue" id="6826028883789516774" />
+      </scope>
+      <unit id="6826028883789516773" at="47,0,50,0" name="juno.constraints.FloatLiteral_Constraints$CONCEPTS" />
+      <unit id="6826028883789516773" at="51,0,54,0" name="juno.constraints.FloatLiteral_Constraints$PROPS" />
+      <unit id="6826028883789516774" at="24,0,40,0" name="juno.constraints.FloatLiteral_Constraints$Value_Property" />
+      <unit id="6826028883789516773" at="19,0,55,0" name="juno.constraints.FloatLiteral_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:de5c5f45-fa4f-490e-ae4a-63e8f0390855(juno.constraints)/6826028883789533187">
+    <file name="BooleanLiteral_Constraints.java">
+      <node id="6826028883789533187" at="20,39,21,38" concept="8" />
+      <node id="6826028883789533188" at="25,60,26,61" concept="8" />
+      <node id="6826028883789533188" at="29,109,30,99" concept="4" />
+      <node id="6826028883789533188" at="31,53,32,145" concept="1" />
+      <node id="6826028883789533188" at="33,7,34,20" concept="5" />
+      <node id="6826028883789868693" at="36,85,37,56" concept="4" />
+      <node id="6826028883789901855" at="37,56,38,43" concept="5" />
+      <node id="6826028883789533187" at="42,84,43,119" concept="4" />
+      <node id="6826028883789533188" at="43,119,44,63" concept="1" />
+      <node id="6826028883789533187" at="44,63,45,22" concept="5" />
+      <node id="6826028883789533187" at="49,0,50,0" concept="6" trace="BooleanLiteral$zR" />
+      <node id="6826028883789533187" at="53,0,54,0" concept="6" trace="value$5Dv1" />
+      <node id="6826028883789533187" at="20,0,23,0" concept="0" trace="BooleanLiteral_Constraints#()V" />
+      <node id="6826028883789533188" at="25,0,28,0" concept="0" trace="Value_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6826028883789533188" at="30,99,33,7" concept="2" />
+      <node id="6826028883789533188" at="36,0,40,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6826028883789533187" at="41,0,47,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="6826028883789533188" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="6826028883789533187" at="20,39,21,38" />
+      <scope id="6826028883789533188" at="25,60,26,61" />
+      <scope id="6826028883789533188" at="31,53,32,145" />
+      <scope id="6826028883789533273" at="36,85,38,43">
+        <var name="value" id="6826028883789868694" />
+      </scope>
+      <scope id="6826028883789533187" at="20,0,23,0" />
+      <scope id="6826028883789533188" at="25,0,28,0">
+        <var name="container" id="6826028883789533188" />
+      </scope>
+      <scope id="6826028883789533187" at="42,84,45,22">
+        <var name="properties" id="6826028883789533187" />
+      </scope>
+      <scope id="6826028883789533188" at="36,0,40,0">
+        <var name="node" id="6826028883789533188" />
+        <var name="propertyValue" id="6826028883789533188" />
+      </scope>
+      <scope id="6826028883789533188" at="29,109,34,20">
+        <var name="result" id="6826028883789533188" />
+      </scope>
+      <scope id="6826028883789533187" at="41,0,47,0" />
+      <scope id="6826028883789533188" at="28,0,36,0">
+        <var name="checkingNodeContext" id="6826028883789533188" />
+        <var name="node" id="6826028883789533188" />
+        <var name="propertyValue" id="6826028883789533188" />
+      </scope>
+      <unit id="6826028883789533187" at="48,0,51,0" name="juno.constraints.BooleanLiteral_Constraints$CONCEPTS" />
+      <unit id="6826028883789533187" at="52,0,55,0" name="juno.constraints.BooleanLiteral_Constraints$PROPS" />
+      <unit id="6826028883789533188" at="24,0,41,0" name="juno.constraints.BooleanLiteral_Constraints$Value_Property" />
+      <unit id="6826028883789533187" at="19,0,56,0" name="juno.constraints.BooleanLiteral_Constraints" />
+    </file>
+  </root>
+</debug-info>
+
